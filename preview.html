@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QA Testing Report</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+        }
+
+        .section {
+            margin-top: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #000;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .summary-box {
+            border: 1px solid #000;
+            padding: 15px;
+            margin-top: 15px;
+        }
+
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        ul {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>QA Testing Report</h1>
+
+    <div class="section">
+        <h2>Project Information</h2>
+
+        <table>
+            <tr>
+                <th>Project Name</th>
+                <td>UltraVoice AI</td>
+            </tr>
+            <tr>
+                <th>Testing Date</th>
+                <td>03 June 2026</td>
+            </tr>
+            <tr>
+                <th>Tester</th>
+                <td>QA Team</td>
+            </tr>
+            <tr>
+                <th>Environment</th>
+                <td>Web Application</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Testing Summary</h2>
+
+        <div class="summary-box">
+            <p>
+                Core telephony functionality was tested successfully.
+                Sales Assistant, Appointment Scheduler, and Customer Support
+                Agent workflows could not be fully validated due to an issue
+                observed during continuous interruption of AI responses.
+            </p>
+
+            <p>
+                During stress testing, if the AI is interrupted multiple times
+                continuously, the system becomes unresponsive for approximately
+                5–6 seconds before recovering.
+            </p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Module Status</h2>
+
+        <table>
+            <tr>
+                <th>Module</th>
+                <th>Status</th>
+                <th>Remarks</th>
+            </tr>
+
+            <tr>
+                <td>Telephony</td>
+                <td>Passed</td>
+                <td>No major issues observed.</td>
+            </tr>
+
+            <tr>
+                <td>Sales Assistant</td>
+                <td>Pending</td>
+                <td>Could not complete testing due to AI interruption issue.</td>
+            </tr>
+
+            <tr>
+                <td>Appointment Scheduler</td>
+                <td>Pending</td>
+                <td>Could not complete testing due to AI interruption issue.</td>
+            </tr>
+
+            <tr>
+                <td>Customer Support Agent</td>
+                <td>Pending</td>
+                <td>Could not complete testing due to AI interruption issue.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Issues Identified</h2>
+
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Issue</th>
+                <th>Severity</th>
+            </tr>
+
+            <tr>
+                <td>BUG-001</td>
+                <td>System becomes unresponsive for 5–6 seconds when AI is interrupted repeatedly.</td>
+                <td>Medium</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Conclusion</h2>
+
+        <p>
+            Overall application behavior is stable for normal telephony usage.
+            The primary issue identified is a temporary freeze caused by
+            continuous interruption of AI responses. Additional testing of
+            Sales Assistant, Appointment Scheduler, and Customer Support Agent
+            modules should be performed after the issue is resolved.
+        </p>
+    </div>
+
+    <div class="footer">
+        <p>Generated QA Testing Report</p>
+    </div>
+
+</div>
+
+</body>
+</html>
